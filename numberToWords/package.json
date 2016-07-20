@@ -1,0 +1,34 @@
+{
+  "name": "numToWords",
+  "version": "1.0.0",
+  "description": "Returns an English rendering of a numerical input between 0 and 1000",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec --require babel-core/register"
+  },
+  "author": "fbav",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.10.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-register": "^6.9.0",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-jshint": "^2.0.1",
+    "gulp-mocha": "^2.2.0",
+    "jshint": "^2.9.2",
+    "mocha": "^2.5.3",
+    "path": "^0.12.7",
+    "rewire": "^2.5.2"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "dependencies": {
+    "babel": "^6.5.2"
+  }
+}
